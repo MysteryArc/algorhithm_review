@@ -9,7 +9,7 @@
 #include<cmath>
 using namespace std;
 
-vector<int> price = {0, 1, 5, 8, 9, 10, 17, 17, 20, 24, 30};
+vector<int> price = {0, 1, 5, 8, 9, 10, 17, 17, 20, 24, 30}; // 不同长度钢条的价格
 
 void best_cut(int len){
     vector<int> dp(len + 1, 0); // 计算每个长度的最优总价
